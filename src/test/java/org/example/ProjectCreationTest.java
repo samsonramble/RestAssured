@@ -19,7 +19,7 @@ public class ProjectCreationTest {
 
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
 
-        String projectName = "PierwszyTest";
+        String projectName = "TOD-30";
 
         RestAssured.given()
                 .body(format("{\"name\": \"%s\"}", projectName))
